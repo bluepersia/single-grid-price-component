@@ -29,3 +29,92 @@ body {
 * :last-child {
     margin-bottom: 0;
 }
+
+
+/* Typography */
+
+#cmp 
+{
+    font-family: var(--cmp-f-1);
+    line-height: 1.6;
+}
+
+#cmp__title
+{
+    color: var(--cmp-c-Cyan);
+    font-size: 1.25rem;
+}
+
+#cmp__subtitle 
+{
+    color: var(--cmp-c-BrightYellow);
+    font-size: .9375rem;
+}
+
+#cmp__header-body 
+{
+    font-size: 0.875rem;
+    color: var(--cmp-c-Gray);
+    line-height: 1.8;
+}
+
+
+.cmp__col 
+{
+    color: var(--cmp-c-White)
+}
+
+.cmp__col-title 
+{
+    font-size: 1.125rem;
+}
+
+
+
+#cmp__col-1-price .text
+{
+    opacity: 50%;
+}
+
+#cmp__col-1-price .price 
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cmp__btn 
+{
+    background-color: var(--cmp-c-BrightYellow);
+    border:none;
+    color:inherit;
+    padding: .9375em 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+#cmp__list {
+    font-size: .875rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+
+@media(min-width: 1000px)
+{
+    #cmp__title 
+    {
+        font-size: 1.5rem;
+    }
+
+    #cmp__subtitle {
+        font-size: 1.125rem;
+    }
+
+    #cmp__header-body 
+    {
+        font-size: 1rem;
+        line-height: inherit;
+    }
+
+}
